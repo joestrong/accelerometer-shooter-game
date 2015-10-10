@@ -3,7 +3,7 @@ function put(id, string){
 	elem.innerHTML = string;
 }
 
-var hostname = '192.168.1.200',
+var hostname = 'localhost',
 	socket = io.connect('//' + hostname + ':8000');
 
 var x1 = 0,

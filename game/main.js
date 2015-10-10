@@ -3,7 +3,7 @@ var width = 800,
 
 var game = new Phaser.Game(width, height, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update });
 
-var hostname = '192.168.1.200',
+var hostname = 'localhost',
 	socket = io.connect('//' + hostname + ':8000');
 
 var crosshair,

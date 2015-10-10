@@ -9,6 +9,7 @@ app.configure(function(){
   app.use('/mobile', express.static(__dirname + '/mobile'));
   app.use('/game', express.static(__dirname + '/game'));
   app.use('/lib', express.static(__dirname + '/lib'));
+  app.use('/components', express.static(__dirname + '/node_modules'));
 });
 
 // Emit welcome message on connection
