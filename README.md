@@ -1,12 +1,12 @@
-# bieber-shooter-game
-Use your phone to control the crosshair on your desktop. Shoot Bieber!
+# accelerometer-shooter-game
+Use your phone to control the crosshair on your desktop.
 
 # Getting started
 
 1 - Clone the repo
 ```
-git clone git@github.com:joestrong/bieber-shooter-game.git
-cd bieber-shooter-game
+git clone git@github.com:joestrong/accelerometer-shooter-game.git
+cd accelerometer-shooter-game
 ```
 2 - Install dependancies
 ```
